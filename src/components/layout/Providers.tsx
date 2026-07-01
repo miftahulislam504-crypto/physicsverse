@@ -43,6 +43,7 @@ function AuthObserver() {
       if (firebaseUser) {
         // Map FirebaseUser → our User type
         setUser({
+          id:           firebaseUser.uid,
           uid:          firebaseUser.uid,
           email:        firebaseUser.email ?? "",
           displayName:  firebaseUser.displayName ?? "Physics Explorer",

@@ -22,6 +22,7 @@ export type LearningPath = "ssc" | "hsc" | "admission" | "olympiad" | "curious";
 
 // ── User ──────────────────────────────────────────────────────────────────────
 export interface User {
+  id: string;
   uid: string;
   email: string;
   displayName: string;
@@ -42,6 +43,7 @@ export type UserLevel =
   | "star";
 
 export interface UserProgress {
+  id: string;
   uid: string;
   completedChapters: string[];       // chapter IDs
   completedLabs: string[];           // lab IDs
