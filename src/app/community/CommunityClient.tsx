@@ -1,7 +1,7 @@
 "use client";
 
 // src/app/community/CommunityClient.tsx
-import { useState, useMemo } from "react";
+import { useState, useMemo, type ReactNode } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import {
@@ -150,7 +150,7 @@ export function CommunityClient() {
         </motion.div>
 
         {/* Tabs */}
-        <TabBar tabs={TABS} active={tab} onChange={(id) => setTab(id as TabId)} />
+        <TabBar tabs={TABS as unknown as { id: string; label: string; icon?: ReactNode }[]} active={tab} onChange={(id) => setTab(id as TabId)} />
 
         {/* Posts */}
         <AnimatePresence mode="wait">
