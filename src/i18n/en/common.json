@@ -1,0 +1,217 @@
+{
+  "nav": {
+    "explore":      "Explore",
+    "learn":        "Learn",
+    "lab":          "Physics Lab",
+    "playground":   "Playground",
+    "practice":     "Practice",
+    "encyclopedia": "Encyclopedia",
+    "community":    "Community",
+    "aiTutor":      "AI Tutor",
+    "dashboard":    "Dashboard"
+  },
+  "home": {
+    "hero": {
+      "eyebrow":    "Physics Learning Ecosystem",
+      "headline":   "See Physics. Feel Physics. Master Physics.",
+      "sub":        "Interactive simulations, AI tutoring, virtual labs, and a 3D science city — all in one place.",
+      "cta":        "Start Exploring",
+      "ctaSecond":  "Watch Demo"
+    },
+    "stats": {
+      "simulations": "Simulations",
+      "problems":    "Practice Problems",
+      "chapters":    "Chapters",
+      "learners":    "Active Learners"
+    },
+    "sections": {
+      "zones":       "Experience Zones",
+      "zonesDesc":   "Hands-on virtual labs across every domain of physics.",
+      "recent":      "Recently Added",
+      "popular":     "Most Popular",
+      "daily":       "Today's Physics Fact"
+    }
+  },
+  "learn": {
+    "title":           "Learn Physics",
+    "searchPlaceholder":"Search chapters, topics, formulas...",
+    "filters": {
+      "all":           "All Domains",
+      "difficulty":    "Difficulty",
+      "beginner":      "Beginner",
+      "intermediate":  "Intermediate",
+      "advanced":      "Advanced",
+      "olympiad":      "Olympiad"
+    },
+    "chapter": {
+      "prerequisites": "Prerequisites",
+      "readTime":      "{{min}} min read",
+      "startReading":  "Start Reading",
+      "markComplete":  "Mark as Complete",
+      "completed":     "Completed",
+      "misconceptions":"Common Misconceptions",
+      "keyPoints":     "Key Points",
+      "tryInLab":      "Try in Lab",
+      "relatedProblems":"Related Problems"
+    }
+  },
+  "lab": {
+    "title":       "Physics Lab",
+    "description": "Run virtual experiments. Adjust parameters. See physics in action.",
+    "zones": {
+      "motion":      "Motion Zone",
+      "force":       "Force Zone",
+      "energy":      "Energy Zone",
+      "electricity": "Electricity Zone",
+      "waves":       "Wave Zone",
+      "light":       "Light Zone",
+      "thermal":     "Thermal Zone",
+      "space":       "Space Zone",
+      "modern":      "Modern Physics"
+    },
+    "experiment": {
+      "parameters":    "Parameters",
+      "reset":         "Reset",
+      "play":          "Play",
+      "pause":         "Pause",
+      "observations":  "Observations",
+      "dataTable":     "Data Table",
+      "quiz":          "What did you learn?",
+      "exportData":    "Export Data"
+    }
+  },
+  "practice": {
+    "title":       "Practice Zone",
+    "filters": {
+      "level":     "Exam Level",
+      "ssc":       "SSC",
+      "hsc":       "HSC",
+      "admission": "Admission",
+      "olympiad":  "Olympiad"
+    },
+    "problem": {
+      "showSolution":   "Show Solution",
+      "nextProblem":    "Next Problem",
+      "bookmark":       "Bookmark",
+      "report":         "Report Issue",
+      "tryAgain":       "Try Again",
+      "correct":        "Correct!",
+      "incorrect":      "Not quite — see the solution"
+    },
+    "mock": {
+      "start":      "Start Mock Exam",
+      "timeLeft":   "Time Left",
+      "submit":     "Submit Paper",
+      "results":    "Your Results"
+    }
+  },
+  "formula": {
+    "title":       "Formula Explorer",
+    "search":      "Search formulas...",
+    "variables":   "Variables",
+    "derivation":  "Step-by-step Derivation",
+    "usedIn":      "Used In",
+    "related":     "Related Formulas",
+    "trySlider":   "Adjust values to see how the formula responds"
+  },
+  "aiTutor": {
+    "title":       "AI Physics Tutor",
+    "placeholder": "Ask me anything about physics...",
+    "hint":        "I can explain concepts, solve problems step-by-step, and find your weak spots.",
+    "sending":     "Thinking...",
+    "imageUpload": "Upload a problem image",
+    "voice":       "Speak your question",
+    "newChat":     "New Chat",
+    "history":     "Chat History"
+  },
+  "encyclopedia": {
+    "title":       "Physics Encyclopedia",
+    "scientists":  "Scientists",
+    "laws":        "Laws & Principles",
+    "constants":   "Physical Constants",
+    "phenomena":   "Phenomena",
+    "instruments": "Instruments",
+    "nobel":       "Nobel Prizes",
+    "glossary":    "Glossary"
+  },
+  "community": {
+    "title":        "Community",
+    "askQuestion":  "Ask a Question",
+    "newPost":      "New Post",
+    "trending":     "Trending",
+    "unanswered":   "Unanswered",
+    "myPosts":      "My Posts",
+    "weeklyChallenge": "Weekly Challenge"
+  },
+  "dashboard": {
+    "title":       "My Dashboard",
+    "streak":      "Day Streak",
+    "xp":          "Total XP",
+    "level":       "Level",
+    "continue":    "Continue Learning",
+    "recommended": "Recommended for You",
+    "recentActivity": "Recent Activity",
+    "bookmarks":   "My Bookmarks",
+    "achievements":"Achievements"
+  },
+  "auth": {
+    "signIn":          "Sign In",
+    "signUp":          "Sign Up",
+    "signOut":         "Sign Out",
+    "email":           "Email",
+    "password":        "Password",
+    "displayName":     "Your Name",
+    "forgotPassword":  "Forgot Password?",
+    "continueGoogle":  "Continue with Google",
+    "noAccount":       "Don't have an account?",
+    "haveAccount":     "Already have an account?",
+    "resetPassword":   "Reset Password",
+    "resetSent":       "Reset email sent. Check your inbox."
+  },
+  "common": {
+    "loading":     "Loading...",
+    "error":       "Something went wrong",
+    "retry":       "Try Again",
+    "viewAll":     "View All",
+    "learnMore":   "Learn More",
+    "back":        "Back",
+    "next":        "Next",
+    "previous":    "Previous",
+    "save":        "Save",
+    "cancel":      "Cancel",
+    "delete":      "Delete",
+    "edit":        "Edit",
+    "share":       "Share",
+    "copy":        "Copy",
+    "copied":      "Copied!",
+    "search":      "Search",
+    "filter":      "Filter",
+    "sort":        "Sort",
+    "language":    "Language",
+    "theme": {
+      "light":     "Light",
+      "dark":      "Dark",
+      "system":    "System"
+    },
+    "domains": {
+      "mechanics":      "Mechanics",
+      "thermodynamics": "Thermodynamics",
+      "electricity":    "Electricity",
+      "magnetism":      "Magnetism",
+      "waves":          "Waves",
+      "optics":         "Optics",
+      "modern":         "Modern Physics",
+      "astrophysics":   "Astrophysics",
+      "quantum":        "Quantum Mechanics",
+      "relativity":     "Relativity"
+    },
+    "levels": {
+      "electron":  "Electron",
+      "proton":    "Proton",
+      "neutron":   "Neutron",
+      "atom":      "Atom",
+      "molecule":  "Molecule",
+      "star":      "Star"
+    }
+  }
+}
