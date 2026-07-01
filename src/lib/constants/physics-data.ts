@@ -2,7 +2,7 @@
 // Static seed data for Phase 1 — World Explorer
 // In production these come from Firestore; here they power the UI immediately.
 
-import type { PhysicsDomain } from "@/types";
+import type { PhysicsDomain, LearningPath } from "@/types";
 
 // ─── Domain Nodes (for Interactive Map) ───────────────────────────────────────
 export interface DomainNode {
@@ -171,7 +171,7 @@ export const TIMELINE_EVENTS: TimelineEvent[] = [
 
 // ─── Learning Paths / Roadmaps ────────────────────────────────────────────────
 export interface RoadmapPath {
-  id: string;
+  id: LearningPath;
   label: string;
   icon: string;
   color: string;
