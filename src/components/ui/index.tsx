@@ -56,7 +56,7 @@ interface TabItem {
 }
 
 interface TabBarProps {
-  tabs: TabItem[];
+  tabs: readonly TabItem[];
   active: string;
   onChange: (id: string) => void;
   className?: string;
