@@ -9,7 +9,7 @@ import {
   ChevronDown, ChevronUp, ArrowRight,
 } from "lucide-react";
 import { FormulaRenderer } from "@/components/physics/FormulaRenderer";
-import { DOMAIN_META, DIFFICULTY_META } from "@/lib/utils";
+import { DOMAIN_META, QUESTION_DIFFICULTY_META } from "@/lib/utils";
 import { cn } from "@/lib/utils";
 import type { Question } from "@/lib/constants/practice-data";
 
@@ -30,7 +30,7 @@ export function QuestionCard({
   const [showSolution, setShowSolution] = useState(false);
 
   const domain = DOMAIN_META[question.domain];
-  const diff   = DIFFICULTY_META[question.difficulty];
+  const diff   = QUESTION_DIFFICULTY_META[question.difficulty];
 
   const isAnswered = revealed || selected !== null || (question.type === "numerical" && numInput !== "");
 

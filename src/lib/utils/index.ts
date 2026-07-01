@@ -2,6 +2,7 @@
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 import type { PhysicsDomain, DifficultyLevel, UserLevel } from "@/types";
+import type { Difficulty } from "@/lib/constants/practice-data";
 
 // ─── Tailwind class merger ────────────────────────────────────────────────────
 export function cn(...inputs: ClassValue[]) {
@@ -42,6 +43,16 @@ export const DIFFICULTY_META: Record<
   intermediate: { label: "Intermediate", color: "#f59e0b" },
   advanced:     { label: "Advanced",     color: "#ef4444" },
   olympiad:     { label: "Olympiad",     color: "#a78bfa" },
+};
+
+// ─── Question difficulty metadata (practice questions: easy/medium/hard) ──────
+export const QUESTION_DIFFICULTY_META: Record<
+  Difficulty,
+  { label: string; color: string }
+> = {
+  easy:   { label: "Easy",   color: "#22c55e" },
+  medium: { label: "Medium", color: "#f59e0b" },
+  hard:   { label: "Hard",   color: "#ef4444" },
 };
 
 // ─── User level metadata ──────────────────────────────────────────────────────
